@@ -1,0 +1,49 @@
+{
+  "name": "bitexthai",
+  "version": "0.1.0",
+  "main": "dist/bitexthai.js",
+  "description": "Bitcoin Exchange Thailand REST API wrapper",
+  "scripts": {
+    "build": "babel --out-dir dist src"
+  },
+  "author": {
+    "author": "Arsen Melikyan <bugron@mail.ru>"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-eslint": "^6.0.4",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^2.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugron/bitexthai"
+  },
+  "bugs": {
+    "url": "https://github.com/bugron/bitexthai/issues",
+    "email": "bugron@mail.ru"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "keywords": [
+    "bitexthai",
+    "btc",
+    "bitcoin",
+    "exchange"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "readmeFilename": "README.md"
+}
